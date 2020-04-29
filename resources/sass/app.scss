@@ -1,0 +1,52 @@
+// Bootstrap
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "../../node_modules/font-awesome/scss/font-awesome.scss";
+/*
+ * Dashboard
+ */
+
+header {
+  padding: 30px 0;
+}
+
+section {
+  padding: 30px 0;
+}
+
+.has-shadow {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.show > .dropdown-menu {
+  display: block;
+}
+
+.detailItemName {
+	font-size: 30px;
+	border-bottom: 2px solid #888;
+	margin-bottom: 20px;
+}
+.detailItemName:first-letter {
+	font-size: 300%;
+}
+
+.Detaillabel {
+	width: 100px;
+	font-weight: bold;
+}
+
+.tableColumns {
+  font-weight: bold;
+}
+
+.Detaillabel, .Detailvalue {
+	display: inline-block;
+}
+
+.details-td {
+	border-right: 1px solid #eee;
+	white-space: nowrap;
+
+	padding: 20px;
+	padding-right: 30px;
+}

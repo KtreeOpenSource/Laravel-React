@@ -1,0 +1,19 @@
+{
+  "logger": {
+    "title": "Remote Sync"
+  },
+  "uploadOnSave": true,
+  "useAtomicWrites": true,
+  "deleteLocal": true,
+  "hostname": "10.0.1.240",
+  "port": "22",
+  "target": "/storage/laravel-react/laravel/",
+  "ignore": [
+    ".remote-sync.json",
+    ".git/**"
+  ],
+  "username": "ktree",
+  "password": "ktree123",
+  "watch": [],
+  "transport": "scp"
+}
